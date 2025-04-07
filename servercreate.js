@@ -1,0 +1,5 @@
+const h=require('http')
+// console.log(h)
+h.createServer((req,res)=>{res.write("hello my friend")
+    res.end()
+}).listen(3000,console.log("server start server localhost:3000"))
